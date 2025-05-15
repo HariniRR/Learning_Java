@@ -13,6 +13,6 @@ The main topics I'm focus and working on:
 - ✅ Control flow statements: if-else, switch, loops  
 - ✅ Collections:ArrayList, HashSet, TreeMap Stack, Queue, etc.
 - ✅ Object-Oriented Programming (OOP): classes, objects, inheritance, polymorphism  
-- ✅ Exception handling: try-catch blocks, custom exceptions   
+- ✅ Exception handling: pre defined and user defined exceptions   
 - ✅ Practice exercises and simple Java programs  
 
