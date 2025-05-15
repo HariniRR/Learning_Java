@@ -1,7 +1,5 @@
 package collections;
-
 import java.util.Stack;
-
 public class StackDemo {
     // Method to search for an element at a specific position
     static String searchElement(Stack<String> stack, int position) {
@@ -16,7 +14,6 @@ public class StackDemo {
             return "An error occurred";
         }
     }
-
     // Method to search for the position of an element
     static int searchPosition(Stack<String> stack, String element) {
         int position = stack.search(element);
