@@ -17,7 +17,7 @@ public class QueueDemo {
 		myqueue.offer("diamond");
 		System.out.println("Queue after enqueue: "+myqueue);
 		System.out.println("Front element is: " + myqueue.peek());
-        String removed = myqueue.poll();//// Dequeue elements
+        String removed = myqueue.poll();// Dequeue elements
         System.out.println("Dequeued element: " + removed);
         System.out.println("Queue after dequeue: " + myqueue);
         System.out.println("Queue size is: " + myqueue.size());
