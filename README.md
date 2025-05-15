@@ -1,7 +1,8 @@
 # Concepts_of_Java ☕
  
 Welcome to my Java Practice Repository!  
-This is where I’m learning and improving my Java skills by writing code, solving problems, and building mini-projects. The goal is to understand the core concepts of Java through hands-on practice  with Eclipse IDE 😊.
+This is where I’m learning and improving my Java skills by writing code, solving problems, and building mini-projects. The goal is to understand the core concepts of Java through hands-on practice with Eclipse IDE 😊.
+I’m currently working on key Java topics regularly and adding new examples and practice files as I learn. This repository will keep growing with my progress and learning journey.
 
 ---
 
