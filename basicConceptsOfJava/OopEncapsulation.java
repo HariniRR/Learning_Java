@@ -38,3 +38,8 @@ public class OopEncapsulation {
      System.out.println("Address: "+hary.getAddress());
  }
 }
+ /*Output
+Name: Harry Potter
+Age: 25
+Address: 5, Nehru street, Mumbai
+*/
