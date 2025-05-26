@@ -35,6 +35,7 @@ public class OopAbstraction {
 		sq.setLength(a);
 		System.out.println("Area of the Square: " + sq.getArea());
 		System.out.println("Volume of the Square: " + sq.getVolume());
+		sq.display();
 	}
 }
 /*Output
@@ -42,6 +43,7 @@ Enter the length  of the circle, a:
 5
 Area of the Square: 25
 Volume of the Square: 125
+This is shape class
 */
 
 
