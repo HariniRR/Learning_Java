@@ -1,13 +1,12 @@
 package OopsConcepts;
 
 class Person {
- 
  // Encapsulating the name and age  only approachable and used using methods defined
  private String name;
  private int age;
- private String address;
+ private String address; //not accessible by ocher class
 
- public String getName() { 
+ public String getName() {  //accessible by ocher class
 	 return name; 
 	 }
  public void setName(String name) { 
