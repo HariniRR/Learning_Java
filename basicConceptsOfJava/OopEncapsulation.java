@@ -12,10 +12,10 @@ class Person {
  public void setName(String name) { 
 	 this.name = name; 
 	 }
- public int getAge() { 
+ public int getAge() { //getter
 	 return age; 
 	 }
- public void setAge(int age) { 
+ public void setAge(int age) { //setter
 	 this.age = age; 
 	 }
  public String getAddress() { 
