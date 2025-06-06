@@ -20,7 +20,7 @@ public class Numeric {
 
    }
    static String isNumeric(String input){
-       int i=input.len-1;
+       int i = input.length() - 1;
        while(i>=0){
            if(Character.isDigit(input.charAt(i))){
                return "False";
@@ -28,7 +28,7 @@ public class Numeric {
            else{
                continue;
            }
-           i--;
+           i-=1;
        }
        return "True";
    }
