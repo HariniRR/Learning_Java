@@ -25,9 +25,6 @@ public class Numeric {
            if(Character.isDigit(input.charAt(i))){
                return "False";
            }
-           else{
-               continue;
-           }
            i-=1;
        }
        return "True";
