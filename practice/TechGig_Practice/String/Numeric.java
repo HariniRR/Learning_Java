@@ -19,15 +19,13 @@ public class Numeric {
     	//Write code here
 
    }
-   static String isNumeric(String input){
-       int i = input.length() - 1;
-       while(i>=0){
-           if(Character.isDigit(input.charAt(i))){
-               return "False";
-           }
-           i-=1;
-       }
-       return "True";
-   }
+static String isNumeric(String input){
+    for (int i = 0; i < input.length(); i++) {
+        if (!Character.isDigit(input.charAt(i))) { 
+            return "False"; // Found a non-digit character
+        }
+    }
+    return "True"; // All characters are digits
+}
 }
 
