@@ -20,7 +20,6 @@ class Student implements Comparable<Student> {
      return id;
  }
 
- // Override toString() for better readability.
  @Override
  public String toString() {
      return "Student [name=" + name + ", id=" + id + "]";
@@ -31,7 +30,7 @@ class Student implements Comparable<Student> {
  public int compareTo(Student other) {
      // Compare students based on their ID.
      // Returns a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
-     return this.id - other.id;
+     return this.id - other.id; //current obj - foreign obj
  }
 }
 
