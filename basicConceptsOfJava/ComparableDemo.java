@@ -29,7 +29,8 @@ class Student implements Comparable<Student> {
  @Override
  public int compareTo(Student other) {
      // Compare students based on their ID.
-     // Returns a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
+     // Returns a negative integer, zero, or a positive integer 
+     //less than 0 then foreign obj would be prioritized first, equal to both receives same level of priority, or greater than 0 current obj comes first.
      return this.id - other.id; //current obj - foreign obj
  }
 }
