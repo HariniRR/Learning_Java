@@ -12,14 +12,6 @@ class Student implements Comparable<Student> {
      this.id = id;
  }
 
- public String getName() {
-     return name;
- }
-
- public int getId() {
-     return id;
- }
-
  @Override
  public String toString() {
      return "Student [name=" + name + ", id=" + id + "]";
