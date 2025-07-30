@@ -1,0 +1,26 @@
+In Java, "data streams" can refer to two distinct concepts: 
+
+• I/O Streams (java.io package): These are fundamental for handling input and output operations, representing a flow of data from a source to a destination. They are categorized based on the type of data they handle (bytes or characters) and their functionality (e.g., buffering, filtering). 
+	• Byte Streams: 
+		• InputStream: Abstract class for reading byte data. 
+		• OutputStream: Abstract class for writing byte data. 
+		• Examples: FileInputStream, FileOutputStream, BufferedInputStream, BufferedOutputStream, DataInputStream, DataOutputStream, ObjectInputStream, ObjectOutputStream. 
+
+	• Character Streams: 
+		• Reader: Abstract class for reading character data. 
+		• Writer: Abstract class for writing character data. 
+		• Examples: FileReader, FileWriter, BufferedReader, BufferedWriter, InputStreamReader, OutputStreamWriter, PrintWriter. 
+
+• Java Stream API (java.util.stream package): Introduced in Java 8, this API provides a powerful and functional way to process sequences of elements from various sources (collections, arrays, I/O channels) in a declarative manner. 
+	• Stream&lt;T&gt;: Represents a sequence of objects of type T. 
+	• IntStream: Specialized stream for int primitive values. 
+	• LongStream: Specialized stream for long primitive values. 
+	• DoubleStream: Specialized stream for double primitive values. 
+
+These streams support a wide range of operations, including: 
+
+• Intermediate Operations: (e.g., filter(), map(), sorted(), distinct(), limit(), skip(), peek()) which transform the stream and return a new stream. 
+• Terminal Operations: (e.g., forEach(), collect(), reduce(), count(), min(), max(), findFirst(), anyMatch(), allMatch(), noneMatch()) which produce a result or a side-effect and terminate the stream pipeline. 
+
+
+
