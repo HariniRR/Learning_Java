@@ -15,5 +15,5 @@ The main topics I'm focus and working on:
 - ✅ Collections:ArrayList, HashSet, TreeMap Stack, Queue, etc.
 - ✅ Object-Oriented Programming (OOP): classes, objects, inheritance, polymorphism  
 - ✅ Exception handling: pre defined and user defined exceptions   
-- ✅ Practice exercises and simple Java programs  
+- ✅ Data Streams: using byte and character streams 
 
