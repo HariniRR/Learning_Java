@@ -27,4 +27,5 @@ public class FileDel {
         }
     }
 }
-/*If the file is currently open by another process or by your own Java application (e.g., a FileOutputStream or FileInputStream is still active on it), delete() might fail[file.delete()]. Ensure all streams associated with the file are closed before attempting deletion.*/
+/*If the file is currently open by another process or by your own Java application (e.g., a FileOutputStream or FileInputStream is still active on it), delete() might fail[file.delete()].
+Ensure all streams associated with the file are closed before attempting deletion.*/
