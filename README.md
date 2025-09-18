@@ -9,11 +9,12 @@ I’m currently working on the Java topics regularly and adding new tasks and pr
 ## 🚀 What I'm Doing  
 The main topics I'm focus and working on:
 
-- ✅ Java syntax, basic concepts and program structure
-- ✅ Data types: primitive, non-primitive 
-- ✅ Control flow statements: if-else, switch, loops  
-- ✅ Collections:ArrayList, HashSet, TreeMap Stack, Queue, etc.
-- ✅ Object-Oriented Programming (OOP): classes, objects, inheritance, polymorphism  
-- ✅ Exception handling: pre defined and user defined exceptions   
-- ✅ Data Streams: using byte and character streams 
+- Java syntax, basic concepts and program structure
+- Data types: primitive, non-primitive 
+- Control flow statements: if-else, switch, loops  
+- Collections:ArrayList, HashSet, TreeMap Stack, Queue, etc.
+- Object-Oriented Programming (OOP): classes, objects, inheritance, polymorphism  
+- Exception handling: pre defined and user defined exceptions   
+- Data Streams: using byte and character streams
+- Threads: usinf Thread class and Runnable interface
 
